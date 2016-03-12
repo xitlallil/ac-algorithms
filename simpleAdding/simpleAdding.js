@@ -7,10 +7,12 @@ Bonus 1: If a is undefined return 0, if a is
 not a number return 0. Check out typeof() operator
 at https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
 
-Bonus 2: If a is not an integer, calculate the
+Bonus 2: If a is a number but not an integer, calculate the
 sum up to the nearest smaller integer. Check out 
 Math.floor() function at 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor
+To check if it is an integer
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger
 
 Alternatively, look into the remainder operator (%).
 e.g. console.log(7%3); // 1
