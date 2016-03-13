@@ -1,7 +1,10 @@
 /* Given an input number a, write a function simpleAdding(a)
 that calculates the sum of all numbers 
 from 0 to a, a included.
- - If a is a negative number return 0.
+ - If a is a negative number return 0. */
+heeeeyyyyy
+
+ /*
 
 Bonus 1: If a is undefined return 0, if a is
 not a number return 0. Check out typeof() operator
