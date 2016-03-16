@@ -40,6 +40,16 @@ console.log(result) // -1
 
 
 function isBigger(a, b) {
-	//Your code here
+	if (a === b) {
+		return 0;
+	}
+	else if (a > b){
+		return true;
+	}
+	else {
+		return false;
+	}	
 	
 }
+
+isBigger(3,2);
