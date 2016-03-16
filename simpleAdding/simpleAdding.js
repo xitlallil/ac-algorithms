@@ -3,6 +3,15 @@ that calculates the sum of all numbers
 from 0 to a, a included.
  - If a is a negative number return 0.
 
+ function simpleAdding(a) {
+	var answer = 0;
+	for (i=0 ; i <= a; i++) {
+	answer += i;
+	}
+	return answer;
+	console.log(answer);
+ }
+
 Bonus 1: If a is undefined return 0, if a is
 not a number return 0. Check out typeof() operator
 at https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
@@ -47,6 +56,12 @@ console.log(result); // 21
 **/
 
 function simpleAdding(a) {
-	//Code here
-
-}
+	
+	var answer = 0;
+	for (i=0 ; i <= a; i++) {
+	answer += i;
+	}
+	console.log(answer);
+	return answer;
+ }
+//the answer to the first one worked for all of them!!!
