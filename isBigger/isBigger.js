@@ -37,19 +37,21 @@ console.log(result) // -1
 
 **/
 
-
-
-function isBigger(a, b) {
-	if (a === b) {
-		return 0;
-	}
-	else if (a > b){
-		return true;
+function isBigger (a,b) {
+	if (typeof a !== "number" || typeof b !=="number"){
+		return -1;
 	}
 	else {
-		return false;
-	}	
-	
+		if (a > b){
+			return true;
+		}
+		else if (a < b) {
+			return false;
+		}	
+		else {
+			return 0;
+		}
+	}
 }
 
-isBigger(3,2);
+isBigger(3,"hello");
