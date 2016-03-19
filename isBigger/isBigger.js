@@ -44,12 +44,9 @@ function isBigger(a, b) {
 		return false;
 	} else if (a>b){
 		return true;
-	} else if (typeof a === "undefined" || typeof b === "undefined"|| typeof a !== "number" || typeof b !== "number") {
+	} else if (typeof a !== "number" || typeof b !== "number") {
 		return -1;
 	} else if (a===b) {
 		return 0;
-	} else {
-		return -1;
-	}
-	
+	} 
 }
