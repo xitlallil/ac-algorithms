@@ -7,7 +7,7 @@ Hint: Chekout typeof() operator at
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
 
 */
-
+	
 /**
 Examples:
 
@@ -40,6 +40,13 @@ console.log(result) // -1
 
 
 function isBigger(a, b) {
-	//Your code here
-	
+	if (a<b) {
+		return false;
+	} else if (a>b){
+		return true;
+	} else if (typeof a !== "number" || typeof b !== "number") {
+		return -1;
+	} else if (a===b) {
+		return 0;
+	} 
 }

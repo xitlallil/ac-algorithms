@@ -38,9 +38,53 @@ console.log(result) // -1
 
 **/
 
-
+//without bonus:
 
 function getReadableTime(minutes) {
-	//Your code here
+	var minutez = Math.floor(minutes);
+	var clock = {hour:(minutez/60), minute: (minutez%60)};
+	return clock;
 	
 }
+
+//with bonus 1:
+
+function getReadableTime(minutes) {
+	var clock = {
+		day: 0,
+		hour: 0,
+		minutes: 0,
+	};
+		var totalHour = Math.floor(minutes/60);
+		var totalDay = Math.floor(totalHour/24);
+		var hoursLeftAfterDays = totalHour%24;
+		var remainingMinutes = minutes%60;
+		clock.day = totalDay;
+		clock.hour = hoursLeftAfterDays;
+		clock.minutes = remainingMinutes;
+
+		return clock;
+	}
+
+
+//with bonus 2:
+
+function getReadableTime(minutes) {
+	if (typeof minutes !== "number" || (minutes<0)) {
+		return -1;
+	} else {
+	var clock = {
+		day: 0,
+		hour: 0,
+		minutes: 0,
+	};
+		var totalHour = Math.floor(minutes/60);
+		var totalDay = Math.floor(totalHour/24);
+		var hoursLeftAfterDays = totalHour%24;
+		var remainingMinutes = minutes%60;
+		clock.day = totalDay;
+		clock.hour = hoursLeftAfterDays;
+		clock.minutes = remainingMinutes;
+
+		return clock;
+	}	
