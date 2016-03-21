@@ -24,6 +24,13 @@ console.log(result) // ""
 var result = alphabetSoup("f");
 console.log(result) // "f"
 
+var result = alphabetSoup("my string");
+console.log(result) // " gimnrsty"
+
+Bonus:
+var result = alphabetSoup("my string oh my");
+console.log(result) // "ghimmnorstyy"
+
 **/
 
 function alphabetSoup(str) {
