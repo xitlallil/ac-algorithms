@@ -33,11 +33,7 @@ console.log(result) // "ghimmnorstyy"
 
 **/
 
-function alphabetSoup(str) { //Create the function the the parameter str
-	//Create a variable to hold the new array
-	//Split the string into individual strings that are just one letter
-	//Alphabetize them
-	//Rejoin them as one string and take out the spaces at the beginning
-	var myArray = str.split("").sort().join("").trim();
-	return myArray;
+function alphabetSoup(str) {
+	//Your code here
+	
 }
