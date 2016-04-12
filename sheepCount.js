@@ -19,16 +19,6 @@ that she will name before falling asleep.
 
 If she will count forever, print INSOMNIA instead.
 
-Input 
- 	
-Output 
- 
-0
-1
-2
-11
-
-
 If N = 0, since 2 × 0 = 0, 3 × 0 = 0, and so on, Bleatrix will never see any digit other than 0, 
 and so she will count forever and never fall asleep. Poor sheep!
 console.log(sheepCount(0)) //INSOMNIA
