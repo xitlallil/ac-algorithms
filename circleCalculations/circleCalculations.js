@@ -1,10 +1,9 @@
-//Write a JavaScript program to calculate the area and perimeter of a circle. The radius of the circle will be supplied by the user
+var radius = prompt("What is the radius?")
+function circleCalculation (radius) {
+	var circumference = Math.floor(2*(Math.PI) * radius);
+	var area = Math.floor(Math.PI * radius^2);
+	let sentence = "The area of the circle is " + area +  " and the perimeter of the circle is "+ circumference
 
-//Bonus 1: Write the answer like this "The area of the circle is ___ and the perimeter of the circle is ____"
-
-//Bonus 2: Make both numbers whole integers (aka round to the nearest integer) 
-
-function circleCalculation () {
-	//your code here
-
-circleCalculation(10);
+	return sentence
+}
+console.log(circleCalculation(radius));
